@@ -25,20 +25,6 @@ Este é um projeto simples de Calculadora de IMC (Índice de Massa Corporal) des
 3. Insira seu peso (kg) e altura (m) nos campos indicados.
 4. Clique no botão de calcular para ver o seu IMC e sua classificação.
 
-## Estrutura do Projeto
-```
-calculadora-imc/
-
->assets
- > css
-     > mediaquerie.css
-     > style.css
-> images
-     > img-aba-lateral.png
-> js
-     > script.js
-index.html
-```
 
 ## Contribuição
 Fique à vontade para contribuir com melhorias! Basta fazer um fork do repositório e abrir um pull request com suas alterações.
