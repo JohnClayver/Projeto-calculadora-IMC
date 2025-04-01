@@ -1,0 +1,12 @@
+@media (max-width: 1128px){
+    .container img{
+        width: 500px;
+    }
+}
+
+@media (max-width: 935px){
+    .container img{
+        display: none;
+    }
+}
+

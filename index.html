@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/mediaquerie.css">
+    <title>Projeto Calculadora IMC</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./assets/images/img-aba-lateral.png" alt="imagem-treinamento">
+            
+        <div class="bloco-calculo">
+            <h1>Calculadora - IMC</h1>
+            <div class="line"></div>
+
+            <div class="form">
+                <p>Peso em Kg</p>
+                <input type="number" id="peso" placeholder="Kg" max="300" min="0">
+    
+                <p>Altura em metros</p>
+                <input type="number" id="altura" placeholder="m">
+    
+                <button id="calcular" >Calcular</button>
+            </div>
+
+            <div id="resultado" class="active"></div>
+        </div>
+    </div>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
